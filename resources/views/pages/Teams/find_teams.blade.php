@@ -15,7 +15,7 @@
                         <div class="col-lg-4 mt-2 mt-lg-0">
                             <input id="name" type="text"
                                    class="form-control @error('name') is-invalid @enderror" name="name"
-                                   value="{{ old('name') }}" required placeholder="Java dr.yazeed" autofocus>
+                                   value="{{ old('name') }}" required placeholder="Java dr.ahamd" autofocus>
 
                             @error('name')
                             <span class="invalid-feedback" role="alert">
